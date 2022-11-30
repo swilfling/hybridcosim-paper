@@ -1,0 +1,18 @@
+{
+    "Type": "FMU_src_paths",
+    "Parameters": {
+        "src_dirs": [
+            "ModelTraining/datamodels/datamodels",
+            "Data/DataImport/featureset",
+            "ModelTraining/Training/TrainingUtilities/parameters"
+        ],
+        "src_files": {
+            "model.py": "FMUCreation/Model/model.py",
+            "model_utils.py": "FMUCreation/Model/model_utils.py"
+        },
+        "resource_dirs": null,
+        "resource_root": "",
+        "src_root": "",
+        "resource_dst": "models"
+    }
+}

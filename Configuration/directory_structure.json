@@ -1,0 +1,11 @@
+{
+    "Type": "ExperimentDirectoryStructure",
+    "Parameters": {
+        "root_dir": "D:\\GitHub\\TUG-CPS\\hybridcosim\\../Experiment_20211201_124905",
+        "training_results_dir": "TrainingResults",
+        "models_dir": "Models",
+        "FMU_dir": "FMU",
+        "dymola_main_dir": "Dymola",
+        "testbench_dir": "FMU_Testing"
+    }
+}

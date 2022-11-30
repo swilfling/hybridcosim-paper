@@ -1,0 +1,8 @@
+SolarCollector;;;;;;
+Name;In_Out;Init;Stat_Dyn;Predictions;Type;Description
+dmSolar;input;0;static;TSolarSeg;Real;
+TAmbient;input;25;static;TSolarSeg;Real;
+Radiation_Hor;input;0;static;TSolarSeg;Real;
+TSolarReturn;input;25;static;TSolarSeg;Real;
+TSolarSeg;output;10;;TSolarSeg;Real;
+TSolarSeg_start;parameter;25;;;Real;

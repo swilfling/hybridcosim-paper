@@ -1,0 +1,6 @@
+[submodule "Simulation/DymolaSimulator"]
+	path = Simulation/DymolaSimulator
+	url = https://github.com/tug-cps/dymola-simulator
+[submodule "ModelTraining"]
+	path = ModelTraining
+	url = https://github.com/tug-cps/hybridcosim-modeltraining

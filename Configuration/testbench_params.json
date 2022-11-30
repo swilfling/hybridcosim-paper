@@ -1,0 +1,13 @@
+{
+    "Type": "TestbenchParameters",
+    "Parameters": {
+        "package_file_name": "package.mo",
+        "data_text_file_name": "ExperimentData.txt",
+        "package_name": "FMU_Testing",
+        "model_name": "FMU_Testbench",
+        "FMU_name": "UUT",
+        "combitable_name": "MeasurementData",
+        "datatable_name": "data",
+        "num_init_samples": 4
+    }
+}
