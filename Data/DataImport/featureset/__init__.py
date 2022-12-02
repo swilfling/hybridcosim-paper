@@ -1,4 +1,4 @@
 from . import feature
-from . import feature_set
+from . import featureset
 from .feature import Feature
-from .feature_set import FeatureSet
+from .featureset import FeatureSet

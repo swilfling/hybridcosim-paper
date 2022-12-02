@@ -6,7 +6,7 @@ from FMUCreation.FMUGenerator.fmu_generator import FMUGenerator
 
 if __name__ == "__main__":
 
-    used_framework = 'unifmu'
+    used_framework = 'pythonfmu'
 
     hybridcosim_path = os.path.abspath("../")
     root_dir = os.path.join(hybridcosim_path, "Output")
@@ -36,7 +36,8 @@ if __name__ == "__main__":
     file_utils.move_model(file_paths, fmu_src_path)
 
     if used_framework == 'pythonfmu':
-        sources = " ".join([path for path in list(file_paths.src_files.keys()) + ['models', 'datamodels']])
+        sources = " ".join([path for path in list(file_paths.src_files.keys()) + [os.path.split(dir)[-1] for dir in
+                                                                                  file_paths.src_dirs] + ['models']])
         main_file = os.path.join(fmu_src_path, f'model.py')
         os.chdir(fmu_src_path)
         os.system(f'pythonfmu build -f {main_file} -d {root_dir} {sources}')
